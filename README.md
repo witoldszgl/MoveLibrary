@@ -1,6 +1,6 @@
-# MyMovies
+# MoviesLibrary
 
-MyMovies is a web application made in Vue.js. It allows users to edit an SQLite database (movie list) by communicating with a C# .NET API.
+MoviesLibrary is a web application made in Vue.js. It allows users to edit an SQLite database (movie list) by communicating with a C# .NET API.
 
 ## Installation and startup
 
