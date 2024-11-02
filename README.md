@@ -7,7 +7,7 @@ MyMovies is a web application made in Vue.js. It allows users to edit an SQLite 
 ### Server API
 To start the server API:
 
-1. Navigate to the `Api` folder.
+1. Navigate to the `MovieLibraryAPI` folder.
 2. Open PowerShell and run the following commands:
 
    ```sh
