@@ -137,10 +137,8 @@ export default {
           errorMessage.value = "A movie with the same title and director already exists.";
           return;
         }
-        // Emit save-movie event with movie data
         emit("save-movie", localMovie.value);
       } catch (error) {
-        // Handle error and set the error message
         if (error.response && error.response.status === 409) {
           errorMessage.value = "A movie with the same title and director already exists.";
         } else {
